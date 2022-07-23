@@ -1,9 +1,14 @@
 import './App.css';
+import Home from './Components/Home/Home'
+import bg from './Components/video/cloud.mp4'
 
 function App() {
   return (
     <div className="App">
-      <h1>Weather App</h1>
+      <video autoPlay muted loop >
+            <source src={bg} type="video/mp4" />
+        </video>
+      <Home/>
     </div>
   );
 }

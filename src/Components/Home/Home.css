@@ -1,0 +1,95 @@
+.h{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.h-head{
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    color: black;
+}
+
+input{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;   
+    padding: 12px ;
+    font-size: 20px;
+    background-color: rgba(0,0,0,0.5);
+    outline: none;
+    border: none;
+    color: white;
+}
+
+input::placeholder{
+    color: white;
+    font-size: 20px;
+}
+
+.h-form{
+    display: flex;
+}
+
+.h-button{
+    width: 25%;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+.fa-search{
+    font-size: 20px;
+}
+
+.h-button:hover{
+    background-color: rgba(0,0,0);
+}
+
+.fa-search:hover{
+    font-size: 20px;
+    color: white;
+}
+
+.h-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;   
+    padding: 12px ;
+    font-size: 20px;
+    background-color: rgba(0,0,0,0.5);
+    outline: none;
+    border: none;
+    color: white;
+    width: 275px;
+    height: 300px;
+    margin-top: 2rem;
+}
+
+.h-temp{
+    font-size: 80px;
+    margin: 0;
+}
+
+.h-city{
+    margin: 0;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.h-weather{
+    margin: 0;
+}
+
+@media screen and (max-width : 860px){
+    .h-head{
+        font-size: 60px;
+    }
+}
